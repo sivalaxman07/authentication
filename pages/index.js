@@ -50,9 +50,9 @@ const Index = () => {
               src="https://app.supabase.io/img/supabase-dark.svg"
               width="96"
             />
-            <Typography.Title level={3}>
+            {/* <Typography.Title level={3}>
               Welcome to Supabase Auth
-            </Typography.Title>
+            </Typography.Title> */}
           </div>
           <Auth
             supabaseClient={supabase}
